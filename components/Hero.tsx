@@ -1,0 +1,76 @@
+export default function Hero() {
+  const careerItems = [
+    { color: "bg-ci-teal", label: "Software Engineering" },
+    { color: "bg-ci-teal", label: "Data Analysis & Science" },
+    { color: "bg-ci-blue", label: "Cloud Architecture" },
+    { color: "bg-ci-blue", label: "BI & Analytics Advising" },
+    { color: "bg-ci-teal", label: "Solutions Architecture" },
+  ];
+
+  return (
+    <section className="bg-ci-bg px-8 py-14">
+      <div className="flex flex-col items-start justify-between gap-8 lg:flex-row">
+        <div className="max-w-[440px]">
+          <div className="inline-flex items-center gap-2 rounded-full border border-ci-border-lt bg-ci-surface px-3 py-1">
+            <span className="h-1.5 w-1.5 rounded-full bg-ci-teal" />
+            <span className="text-xs text-ci-teal">Available for new clients</span>
+          </div>
+          <h1 className="mt-5 text-[33px] font-extrabold leading-[1.17] tracking-tight text-ci-text">
+            Technology should work for your business — not the other way around.
+          </h1>
+          <p className="mt-4 text-sm leading-relaxed text-[#5a7a98]">
+            Whether you&apos;re a growing startup or a local business, I help you build the right tech, understand your numbers, and solve the problems that are actually slowing you down.
+          </p>
+          <p className="mt-2.5 text-sm leading-relaxed text-[#5a7a98]">
+            10+ years of experience across engineering, data, and cloud — delivered directly, without the agency overhead or the jargon.
+          </p>
+          <div className="mt-7 flex flex-wrap gap-3">
+            <a
+              href="#cta"
+              className="rounded-md bg-ci-teal px-5 py-2.5 text-xs font-bold text-ci-bg"
+            >
+              Let&apos;s grab a 30-min call
+            </a>
+            <a
+              href="#services"
+              className="rounded-md border border-[#1a3850] px-5 py-2.5 text-xs text-[#5a8aaa]"
+            >
+              See what I do →
+            </a>
+          </div>
+        </div>
+
+        <div className="w-full shrink-0 lg:w-[195px]">
+          <div className="rounded-[10px] border border-ci-border bg-ci-surface p-3.5">
+            <p className="mb-3 text-[9px] uppercase tracking-wider text-ci-hint">
+              10+ year career across
+            </p>
+            <ul className="flex flex-col gap-1.5">
+              {careerItems.map((item) => (
+                <li key={item.label} className="flex items-center gap-2">
+                  <span className={`h-1.5 w-1.5 shrink-0 rounded-full ${item.color}`} />
+                  <span className="text-[10px] text-[#5a8aaa]">{item.label}</span>
+                </li>
+              ))}
+            </ul>
+          </div>
+          <div className="mt-2 flex justify-around rounded-[10px] border border-ci-border bg-ci-surface p-3">
+            <div className="text-center">
+              <p className="text-[22px] font-extrabold leading-none tracking-tight text-ci-text">
+                10+
+              </p>
+              <p className="mt-1 text-[9px] text-ci-hint">years</p>
+            </div>
+            <div className="w-px bg-ci-border" />
+            <div className="text-center">
+              <p className="text-[22px] font-extrabold leading-none tracking-tight text-ci-text">
+                1
+              </p>
+              <p className="mt-1 text-[9px] text-ci-hint">person</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+}
