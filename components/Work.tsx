@@ -96,8 +96,8 @@ function ProjectCard({ project }: { project: Project }) {
             strokeWidth={2}
           />
         </div>
-        <p className="text-[15px] font-extrabold text-ci-text">{project.siteName}</p>
-        <p className="text-[10px] text-ci-subtle">{project.url}</p>
+        <p className="text-[18px] font-extrabold text-ci-text">{project.siteName}</p>
+        <p className="text-[13px] text-ci-subtle">{project.url}</p>
       </div>
 
       <div className="px-5 py-[18px]">
@@ -105,14 +105,14 @@ function ProjectCard({ project }: { project: Project }) {
           {project.tags.map((tag) => (
             <span
               key={tag.label}
-              className={`rounded-[4px] border px-2 py-0.5 text-[10px] ${tagStyles[tag.style]}`}
+              className={`rounded-[4px] border px-2 py-0.5 text-[13px] ${tagStyles[tag.style]}`}
             >
               {tag.label}
             </span>
           ))}
         </div>
 
-        <p className="mb-3.5 text-xs leading-[1.65] text-ci-subtle">{project.description}</p>
+        <p className="mb-3.5 text-base leading-[1.65] text-ci-subtle">{project.description}</p>
 
         <ul className="mb-4 flex flex-col gap-1.5">
           {project.checklist.map((item) => (
@@ -121,7 +121,7 @@ function ProjectCard({ project }: { project: Project }) {
                 className="mt-0.5 h-3 w-3 shrink-0 text-ci-teal"
                 strokeWidth={2.5}
               />
-              <span className="text-[11px] leading-relaxed text-ci-muted">{item}</span>
+              <span className="text-[16px] leading-relaxed text-ci-muted">{item}</span>
             </li>
           ))}
         </ul>
@@ -130,7 +130,7 @@ function ProjectCard({ project }: { project: Project }) {
           href={project.href}
           target="_blank"
           rel="noopener noreferrer"
-          className="inline-flex items-center gap-1.5 rounded-md border border-ci-border px-3.5 py-1.5 text-[11px] text-[#5a8aaa]"
+          className="inline-flex items-center gap-1.5 rounded-md border border-ci-border px-3.5 py-1.5 text-[16px] text-[#5a8aaa]"
         >
           View live site
           <ExternalLink className="h-[11px] w-[11px]" strokeWidth={2.5} />
@@ -143,27 +143,29 @@ function ProjectCard({ project }: { project: Project }) {
 export default function Work() {
   return (
     <section id="work" className="bg-ci-bg px-8 py-11">
-      <header className="mb-7 text-center">
-        <p className="mb-2 text-[11px] font-semibold uppercase tracking-[1.2px] text-ci-teal">
-          Recent Work
-        </p>
-        <h2 className="mb-2 text-[22px] font-bold tracking-tight text-ci-text">
-          Local businesses I&apos;ve helped get online — and get found.
-        </h2>
-        <p className="mx-auto max-w-sm text-xs leading-relaxed text-ci-subtle">
-          Real clients. Real results. No templates, no page builders — built from scratch for each business.
-        </p>
-      </header>
+      <div className="mx-auto w-full max-w-[1100px]">
+        <header className="mb-7 text-center">
+          <p className="mb-2 text-[15px] font-semibold uppercase tracking-[1.2px] text-ci-teal">
+            Recent Work
+          </p>
+          <h2 className="mb-2 text-[28px] font-bold tracking-tight text-ci-text">
+            Local businesses I&apos;ve helped get online — and get found.
+          </h2>
+          <p className="mx-auto max-w-sm text-base leading-relaxed text-ci-subtle">
+            Real clients. Real results. No templates, no page builders — built from scratch for each business.
+          </p>
+        </header>
 
-      <div className="grid grid-cols-1 gap-3.5 md:grid-cols-2">
-        {projects.map((project) => (
-          <ProjectCard key={project.url} project={project} />
-        ))}
+        <div className="grid grid-cols-1 gap-3.5 md:grid-cols-2">
+          {projects.map((project) => (
+            <ProjectCard key={project.url} project={project} />
+          ))}
+        </div>
+
+        <p className="mt-5 text-center text-[16px] text-ci-hint">
+          More projects coming soon — including data and infrastructure work.
+        </p>
       </div>
-
-      <p className="mt-5 text-center text-[11px] text-ci-hint">
-        More projects coming soon — including data and infrastructure work.
-      </p>
     </section>
   );
 }
