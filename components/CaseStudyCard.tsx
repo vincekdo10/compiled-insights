@@ -18,6 +18,7 @@ export interface CaseStudyImage {
 }
 
 export interface CaseStudyCardProps {
+  projectTitle: string;
   siteName: string;
   url: string;
   href: string;
@@ -51,6 +52,7 @@ const quoteAccentStyles = {
 };
 
 export default function CaseStudyCard({
+  projectTitle,
   siteName,
   url,
   href,
@@ -106,8 +108,10 @@ export default function CaseStudyCard({
 
           <div className="mb-1 flex flex-wrap items-start justify-between gap-3">
             <div>
-              <h3 className="text-[18px] font-extrabold text-ci-text">{siteName}</h3>
-              <p className="text-[13px] text-ci-subtle">{url}</p>
+              <h3 className="text-[18px] font-extrabold text-ci-text">{projectTitle}</h3>
+              <p className="text-[13px] text-ci-subtle">
+                {siteName} · {url}
+              </p>
             </div>
             <a
               href={href}

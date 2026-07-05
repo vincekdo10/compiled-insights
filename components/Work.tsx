@@ -2,6 +2,7 @@ import CaseStudyCard from "@/components/CaseStudyCard";
 
 const caseStudies = [
   {
+    projectTitle: "Optometry website redesign — Victoria, TX",
     siteName: "TransVision PC",
     url: "transvisionpc.com",
     href: "https://www.transvisionpc.com",
@@ -14,17 +15,17 @@ const caseStudies = [
       src: "/screenshots/transvision/comparison-viewport.webp",
       width: 2904,
       height: 956,
-      alt: "TransVision optometry website before and after redesign, small business web design case study",
+      alt: "TransVision optometry website before and after redesign, Victoria TX small business web design",
     },
     lightboxImages: [
       {
         src: "/screenshots/transvision/before-full.webp",
-        alt: "TransVision optometry website before redesign, July 2024",
+        alt: "TransVision optometry website before redesign, Victoria TX, July 2024",
         label: "Before (July 2024)",
       },
       {
         src: "/screenshots/transvision/after-full.webp",
-        alt: "TransVision optometry website after redesign, 2026",
+        alt: "TransVision optometry website after redesign, Victoria TX, 2026",
         label: "After (2026)",
       },
     ],
@@ -43,6 +44,7 @@ const caseStudies = [
     quoteAccent: "teal" as const,
   },
   {
+    projectTitle: "Nail salon website — Magnolia, TX",
     siteName: "Ann & Friends",
     url: "annandfriends.com",
     href: "https://www.annandfriends.com",
@@ -55,23 +57,23 @@ const caseStudies = [
       src: "/screenshots/annandfriends/site-viewport.webp",
       width: 2880,
       height: 1800,
-      alt: "Ann and Friends nail salon website homepage, small business web design near Houston TX",
+      alt: "Ann and Friends nail salon website homepage, Magnolia TX small business web design",
     },
     lightboxImages: [
       {
         src: "/screenshots/annandfriends/site-full.webp",
-        alt: "Ann and Friends nail salon full website design, small business web development",
+        alt: "Ann and Friends nail salon full website design, Magnolia TX",
         label: "Full site",
       },
     ],
     lightboxAriaLabel: "Ann and Friends full page screenshot",
     imageCaption: "Click to view full page screenshot",
     blurb:
-      "A brand new site for an appointment only nail salon near Houston. Built from scratch to match the quality of their work, with clear services, on brand design, and a simple path to book.",
+      "A brand new site for an appointment only nail salon in Magnolia. Built from scratch to match the quality of their work, with clear services, on brand design, and a simple path to book.",
     checklist: [
       "Design and colors that match the salon",
       "Services laid out clearly with a simple path to book",
-      "Local SEO aimed at customers searching in the Houston area",
+      "Local SEO aimed at customers searching in the Magnolia and North Houston area",
     ],
     quote:
       "We'd never had a website before and weren't sure where to start. Vincent walked us through everything and built something that actually represents our salon.",
@@ -90,11 +92,11 @@ export default function Work() {
             Recent Work
           </p>
           <h2 className="mb-2 text-[28px] font-bold tracking-tight text-ci-text">
-            Dallas-area small business websites, built from scratch
+            Small business websites across Texas, built from scratch
           </h2>
           <p className="mx-auto max-w-md text-base leading-relaxed text-ci-subtle">
-            Real client work across Texas. Each site custom built, not pulled from a
-            template.
+            Work with small businesses across Texas. Each site custom built, not pulled
+            from a template.
           </p>
         </header>
 
