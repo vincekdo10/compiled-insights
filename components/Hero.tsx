@@ -16,20 +16,20 @@ export default function Hero() {
             <span className="text-base text-ci-teal">Available for new clients</span>
           </div>
           <h1 className="mt-5 text-[40px] font-extrabold leading-[1.17] tracking-tight text-ci-text">
-            Technology should work for your business — not the other way around.
+            Technology should work for your business. Not the other way around.
           </h1>
           <p className="mt-4 text-lg leading-relaxed text-[#5a7a98]">
-            Whether you&apos;re a growing startup or a local business, I help you build the right tech, understand your numbers, and solve the problems that are actually slowing you down.
+            Whether you run a startup or a local business, I help you build the right tools, make sense of your numbers, and fix what&apos;s slowing you down.
           </p>
           <p className="mt-2.5 text-lg leading-relaxed text-[#5a7a98]">
-            10+ years of experience across engineering, data, and cloud — delivered directly, without the agency overhead or the jargon.
+            10+ years across engineering, data, and cloud. You work with me directly. No agency layers, no jargon.
           </p>
           <div className="mt-7 flex flex-wrap gap-3">
             <a
               href="#cta"
               className="rounded-md bg-ci-teal px-5 py-2.5 text-base font-bold text-ci-bg"
             >
-              Let&apos;s grab a 30-min call
+              Let&apos;s grab a 30 minute call
             </a>
             <a
               href="#services"
@@ -53,21 +53,6 @@ export default function Hero() {
                 </li>
               ))}
             </ul>
-          </div>
-          <div className="mt-2 flex justify-around rounded-[10px] border border-ci-border bg-ci-surface p-3">
-            <div className="text-center">
-              <p className="text-[26px] font-extrabold leading-none tracking-tight text-ci-text">
-                10+
-              </p>
-              <p className="mt-1 text-[11px] text-ci-hint">years</p>
-            </div>
-            <div className="w-px bg-ci-border" />
-            <div className="text-center">
-              <p className="text-[26px] font-extrabold leading-none tracking-tight text-ci-text">
-                1
-              </p>
-              <p className="mt-1 text-[11px] text-ci-hint">person</p>
-            </div>
           </div>
         </div>
       </div>

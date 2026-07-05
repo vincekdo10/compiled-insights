@@ -8,14 +8,14 @@ export default function Navbar() {
         </div>
         <nav className="flex items-center gap-6">
           <div className="hidden items-center gap-6 sm:flex">
+            <a href="#work" className="text-base text-ci-nav-link">
+              Work
+            </a>
             <a href="#services" className="text-base text-ci-nav-link">
               Services
             </a>
             <a href="#about" className="text-base text-ci-nav-link">
               About
-            </a>
-            <a href="#work" className="text-base text-ci-nav-link">
-              Work
             </a>
           </div>
           <a

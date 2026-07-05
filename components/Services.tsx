@@ -64,7 +64,7 @@ export default function Services() {
             What I can help with
           </h2>
           <p className="mx-auto mt-2 max-w-sm text-base leading-relaxed text-ci-subtle">
-            The same skills that serve enterprise teams work even better for businesses that just need it done simply and right.
+            Big company skills, without the big company overhead.
           </p>
         </header>
         <div className="grid grid-cols-1 gap-3 md:grid-cols-2">
@@ -72,28 +72,28 @@ export default function Services() {
             icon={Globe}
             accent="teal"
             title="Websites & Web Apps"
-            body="From a clean website that actually brings in customers, to a full product your team uses every day. I build things that work — and that you can maintain without calling me every week."
+            body="From a website that brings in customers to a tool your team uses every day. I build things that work and that you can maintain without calling me every week."
             pills={["Websites", "Web apps", "Internal tools"]}
           />
           <ServiceCard
             icon={Server}
             accent="blue"
             title="Cloud & Infrastructure"
-            body="The behind-the-scenes stuff that keeps everything running reliably. Whether you're setting things up for the first time or fixing an architecture that's become a headache — I'll make it clean and solid."
+            body="The behind the scenes stuff that keeps everything running. Whether you're setting up for the first time or cleaning up a mess, I'll get it solid."
             pills={["Cloud hosting", "Security", "Automation"]}
           />
           <ServiceCard
             icon={Database}
             accent="blue"
             title="Data & Business Intelligence"
-            body="Stop guessing. I'll help you collect, organize, and make sense of your data — whether that means a simple sales dashboard for your shop or a full data warehouse for a growing company."
+            body="Stop guessing. I'll help you collect, organize, and understand your data. That might mean a simple sales dashboard for your shop or a full warehouse for a growing company."
             pills={["Reporting", "Data pipelines", "Warehousing"]}
           />
           <ServiceCard
             icon={TrendingUp}
             accent="teal"
             title="Analytics & Smarter Decisions"
-            body="Know who your best customers are, what's actually working, and where you're leaving money on the table. I'll turn your raw numbers into answers you can act on — without drowning you in spreadsheets."
+            body="Find out who your best customers are, what's working, and where money is slipping away. I'll turn your numbers into answers you can use without burying you in spreadsheets."
             pills={["Dashboards", "KPI strategy", "Customer insights"]}
           />
         </div>

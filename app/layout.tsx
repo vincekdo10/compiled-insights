@@ -10,7 +10,7 @@ const inter = Inter({
 export const metadata: Metadata = {
   title: "Compiled Insights | Technology Consulting",
   description:
-    "Technology consulting for startups and local businesses — engineering, data, cloud, and analytics delivered directly.",
+    "Technology consulting for startups and local businesses. Engineering, data, cloud, and analytics, delivered directly.",
 };
 
 export default function RootLayout({

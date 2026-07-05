@@ -1,7 +1,7 @@
 import { Check, Rocket, Store } from "lucide-react";
 
 const startupItems = [
-  "You need senior-level help but aren't ready to hire full-time",
+  "You need senior help but you're not ready to hire full time",
   "Your data is a mess and you're making decisions on gut feel",
   "You need a product or internal tool built the right way",
   "Your cloud setup is held together with duct tape",
@@ -11,7 +11,7 @@ const localItems = [
   "Your website is outdated, missing, or not bringing in customers",
   "You're doing things manually that could run on autopilot",
   "You want to understand who your best customers really are",
-  "You've been burned by tech people who over-promised and under-explained",
+  "You've been burned by tech people who talked big and delivered little",
 ];
 
 export default function WhoIHelp() {
@@ -23,7 +23,7 @@ export default function WhoIHelp() {
             Who I work with
           </h2>
           <p className="mt-1.5 text-base text-ci-subtle">
-            Two very different businesses. Same goal — technology that actually helps.
+            Startups and local businesses face different problems. Both need technology that helps.
           </p>
         </header>
         <div className="grid grid-cols-1 gap-3.5 md:grid-cols-2">

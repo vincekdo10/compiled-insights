@@ -12,13 +12,13 @@ export default function About() {
             A little about me
           </p>
           <h2 className="mb-4 text-[26px] font-bold leading-[1.35] tracking-tight text-ci-text">
-            Hi, I&apos;m Vincent. I&apos;ve spent 10+ years working every angle of technology — and I started this to actually use that.
+            Hi, I&apos;m Vincent. I&apos;ve spent 10+ years on every side of technology, and I started this to put that to use.
           </h2>
           <p className="mb-3 text-base leading-[1.75] text-ci-muted">
-            I&apos;ve been a software engineer, data analyst, data scientist, cloud architect, and solutions architect — with stops in BI advisory and data transformation consulting along the way. I&apos;ve seen how technology works inside some of the biggest companies, and more importantly, I&apos;ve seen where it fails.
+            Software engineer, data analyst, data scientist, cloud architect, solutions architect. I have also done BI advisory and data transformation consulting. I have seen how tech works at some of the biggest companies. More importantly, I have seen where it breaks down.
           </p>
           <p className="mb-5 text-base leading-[1.75] text-ci-muted">
-            What I care about most is making sure technology actually helps the people using it. I work directly with my clients — no account managers, no hand-offs — and I explain everything in plain English, whether you&apos;re a founder or a florist.
+            What I care about is technology that helps the people using it. You work with me directly. No account managers, no passing messages back and forth. I explain things in plain English whether you&apos;re a founder or a florist.
           </p>
           <div className="flex flex-wrap gap-3.5">
             <div className="min-w-[160px] flex-1 rounded-r-md border border-ci-border border-l-[3px] border-l-ci-teal bg-ci-surface p-3 px-3.5">
@@ -26,7 +26,7 @@ export default function About() {
                 You talk to me directly
               </p>
               <p className="text-[16px] leading-relaxed text-ci-subtle">
-                No account managers. No relaying messages. Just a straight conversation with the person doing the work.
+                No middle layer. Just you and the person doing the work.
               </p>
             </div>
             <div className="min-w-[160px] flex-1 rounded-r-md border border-ci-border border-l-[3px] border-l-ci-blue bg-ci-surface p-3 px-3.5">
