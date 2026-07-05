@@ -14,17 +14,17 @@ const caseStudies = [
       src: "/screenshots/transvision/comparison-viewport.webp",
       width: 2904,
       height: 956,
-      alt: "TransVision website before and after redesign side by side, July 2024 and 2026",
+      alt: "TransVision optometry website before and after redesign, small business web design case study",
     },
     lightboxImages: [
       {
         src: "/screenshots/transvision/before-full.webp",
-        alt: "TransVision website before redesign, July 2024",
+        alt: "TransVision optometry website before redesign, July 2024",
         label: "Before (July 2024)",
       },
       {
         src: "/screenshots/transvision/after-full.webp",
-        alt: "TransVision website after redesign, 2026",
+        alt: "TransVision optometry website after redesign, 2026",
         label: "After (2026)",
       },
     ],
@@ -55,12 +55,12 @@ const caseStudies = [
       src: "/screenshots/annandfriends/site-viewport.webp",
       width: 2880,
       height: 1800,
-      alt: "Ann and Friends nail salon website homepage, 2026",
+      alt: "Ann and Friends nail salon website homepage, small business web design near Houston TX",
     },
     lightboxImages: [
       {
         src: "/screenshots/annandfriends/site-full.webp",
-        alt: "Ann and Friends nail salon website full page, 2026",
+        alt: "Ann and Friends nail salon full website design, small business web development",
         label: "Full site",
       },
     ],
@@ -90,10 +90,11 @@ export default function Work() {
             Recent Work
           </p>
           <h2 className="mb-2 text-[28px] font-bold tracking-tight text-ci-text">
-            Local businesses I&apos;ve helped get online and get found.
+            Dallas-area small business websites, built from scratch
           </h2>
-          <p className="mx-auto max-w-sm text-base leading-relaxed text-ci-subtle">
-            Real clients. Each site built from scratch, not pulled from a template.
+          <p className="mx-auto max-w-md text-base leading-relaxed text-ci-subtle">
+            Real client work across Texas. Each site custom built, not pulled from a
+            template.
           </p>
         </header>
 

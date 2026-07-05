@@ -11,8 +11,10 @@ export default function CTA() {
         <h2 className="mb-2.5 text-[28px] font-bold leading-[1.35] tracking-tight text-ci-text">
           Something slowing your business down? Let&apos;s talk.
         </h2>
-        <p className="mx-auto mb-2 max-w-[420px] text-base leading-[1.7] text-ci-subtle">
-          Free 30 minute call. Tell me what&apos;s going on and I&apos;ll tell you straight whether I can help or point you somewhere better.
+        <p className="mx-auto mb-2 max-w-[480px] text-base leading-[1.7] text-ci-subtle">
+          Free 30 minute call for Dallas small businesses and startups. Tell me
+          what&apos;s going on and I&apos;ll tell you straight whether I can help or point
+          you somewhere better.
         </p>
         <p className="mb-6 font-mono text-[16px] text-ci-hint">
           No pitch. No retainer to start.

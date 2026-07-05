@@ -12,13 +12,22 @@ export default function About() {
             A little about me
           </p>
           <h2 className="mb-4 text-[26px] font-bold leading-[1.35] tracking-tight text-ci-text">
-            Hi, I&apos;m Vincent. I&apos;ve spent 10+ years on every side of technology, and I started this to put that to use.
+            Hi, I&apos;m Vincent. Dallas-based web designer and developer, with 10+
+            years across engineering, data, and cloud.
           </h2>
           <p className="mb-3 text-base leading-[1.75] text-ci-muted">
-            Software engineer, data analyst, data scientist, cloud architect, solutions architect. I have also done BI advisory and data transformation consulting. I have seen how tech works at some of the biggest companies. More importantly, I have seen where it breaks down.
+            I&apos;m based in Dallas, TX and work with small businesses across DFW and
+            North Texas, plus startups that need a technical partner. You work with me
+            directly. No account managers, no passing messages back and forth.
+          </p>
+          <p className="mb-3 text-base leading-[1.75] text-ci-muted">
+            Software engineer, data analyst, cloud architect, solutions architect. I
+            have seen how tech works at some of the biggest companies. More
+            importantly, I have seen where it breaks down for small teams.
           </p>
           <p className="mb-5 text-base leading-[1.75] text-ci-muted">
-            What I care about is technology that helps the people using it. You work with me directly. No account managers, no passing messages back and forth. I explain things in plain English whether you&apos;re a founder or a florist.
+            10+ years across engineering, data, and cloud. No agency layers, no jargon.
+            I explain things in plain English whether you&apos;re a founder or a florist.
           </p>
           <div className="flex flex-wrap gap-3.5">
             <div className="min-w-[160px] flex-1 rounded-r-md border border-ci-border border-l-[3px] border-l-ci-teal bg-ci-surface p-3 px-3.5">

@@ -10,7 +10,7 @@ export default function Footer() {
     <footer className="border-t border-[#121e2e] bg-ci-dark px-8 py-4">
       <div className="mx-auto flex w-full max-w-[1100px] flex-wrap items-center justify-between gap-2">
         <p className="text-[13px] text-ci-ghost">
-          © 2026 Compiled Insights Consulting
+          © 2026 Compiled Insights · Dallas, TX · Web design &amp; development
         </p>
         <div className="flex flex-wrap items-center gap-8">
           <a

@@ -1,11 +1,11 @@
 export default function Navbar() {
   return (
-    <header className="border-b border-ci-border bg-ci-bg px-8">
+    <header id="top" className="border-b border-ci-border bg-ci-bg px-8">
       <div className="mx-auto flex h-[52px] w-full max-w-[1100px] items-center justify-between">
-        <div className="flex items-center gap-1.5">
+        <a href="#top" className="flex items-center gap-1.5">
           <span className="font-mono text-lg font-bold text-ci-teal">[CI]</span>
           <span className="text-lg font-bold text-ci-text">Compiled Insights</span>
-        </div>
+        </a>
         <nav className="flex items-center gap-6">
           <div className="hidden items-center gap-6 sm:flex">
             <a href="#work" className="text-base text-ci-nav-link">

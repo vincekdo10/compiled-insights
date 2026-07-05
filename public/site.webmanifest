@@ -1,6 +1,7 @@
 {
-  "name": "MyWebSite",
-  "short_name": "MySite",
+  "name": "Compiled Insights",
+  "short_name": "Compiled Insights",
+  "description": "Web design and development for small businesses and startups in Dallas, TX",
   "icons": [
     {
       "src": "/web-app-manifest-192x192.png",
@@ -15,7 +16,7 @@
       "purpose": "maskable"
     }
   ],
-  "theme_color": "#ffffff",
-  "background_color": "#ffffff",
+  "theme_color": "#060b16",
+  "background_color": "#060b16",
   "display": "standalone"
 }

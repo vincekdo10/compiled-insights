@@ -61,10 +61,10 @@ export default function Services() {
       <div className="mx-auto w-full max-w-[1100px]">
         <header className="mb-7 text-center">
           <h2 className="text-[26px] font-bold tracking-tight text-ci-text">
-            What I can help with
+            Web design, development, and technical help
           </h2>
-          <p className="mx-auto mt-2 max-w-sm text-base leading-relaxed text-ci-subtle">
-            Big company skills, without the big company overhead.
+          <p className="mx-auto mt-2 max-w-md text-base leading-relaxed text-ci-subtle">
+            Websites and web apps first. Cloud, data, and analytics when you need them.
           </p>
         </header>
         <div className="grid grid-cols-1 gap-3 md:grid-cols-2">
@@ -72,8 +72,22 @@ export default function Services() {
             icon={Globe}
             accent="teal"
             title="Websites & Web Apps"
-            body="From a website that brings in customers to a tool your team uses every day. I build things that work and that you can maintain without calling me every week."
-            pills={["Websites", "Web apps", "Internal tools"]}
+            body="Custom websites for Dallas small businesses and web apps for startups. Built from scratch, fast on mobile, and set up to help you get found locally."
+            pills={["Small business websites", "Web apps", "Local SEO"]}
+          />
+          <ServiceCard
+            icon={TrendingUp}
+            accent="teal"
+            title="Analytics & Smarter Decisions"
+            body="Find out who your best customers are, what's working, and where money is slipping away. Practical reporting for shops and growing teams across DFW."
+            pills={["Dashboards", "KPI strategy", "Customer insights"]}
+          />
+          <ServiceCard
+            icon={Database}
+            accent="blue"
+            title="Data & Business Intelligence"
+            body="Stop guessing. I'll help you collect, organize, and understand your data, from a simple sales dashboard to a full warehouse for a growing company."
+            pills={["Reporting", "Data pipelines", "Warehousing"]}
           />
           <ServiceCard
             icon={Server}
@@ -81,20 +95,6 @@ export default function Services() {
             title="Cloud & Infrastructure"
             body="The behind the scenes stuff that keeps everything running. Whether you're setting up for the first time or cleaning up a mess, I'll get it solid."
             pills={["Cloud hosting", "Security", "Automation"]}
-          />
-          <ServiceCard
-            icon={Database}
-            accent="blue"
-            title="Data & Business Intelligence"
-            body="Stop guessing. I'll help you collect, organize, and understand your data. That might mean a simple sales dashboard for your shop or a full warehouse for a growing company."
-            pills={["Reporting", "Data pipelines", "Warehousing"]}
-          />
-          <ServiceCard
-            icon={TrendingUp}
-            accent="teal"
-            title="Analytics & Smarter Decisions"
-            body="Find out who your best customers are, what's working, and where money is slipping away. I'll turn your numbers into answers you can use without burying you in spreadsheets."
-            pills={["Dashboards", "KPI strategy", "Customer insights"]}
           />
         </div>
       </div>
